@@ -1,24 +1,24 @@
-# Web Development Notes
+# 🌐 Web Development Notes
 
-## Introduction to Web Development
+## 🚀 Introduction to Web Development
 
 Client ↔️ Browser ↔️ Server
 
 - Client sends a request through the browser.
 - Server processes the request and sends a response.
 - Frontend consists of:
-  - HTML → Structure
-  - CSS → Design
-  - JavaScript → Interaction and Logic
+  - 🏗️ HTML → Structure
+  - 🎨 CSS → Design
+  - ⚡ JavaScript → Interaction and Logic
 
-### HTML (HyperText Markup Language)
+### 📄 HTML (HyperText Markup Language)
 
 - HTML is used to create websites.
 - HTML provides the structure of a webpage.
 - CSS is used to add styling and design.
 - JavaScript is used to add functionality and logic.
 
-### Basic HTML Structure
+### 🧱 Basic HTML Structure
 
 ```html
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ Explanation:
 
 ---
 
-# HTML Attributes
+# 🏷️ HTML Attributes
 
 Attributes provide additional information about HTML elements.
 
@@ -55,7 +55,7 @@ Example:
 
 ---
 
-# Headings
+# 📝 Headings
 
 HTML provides six heading levels.
 
@@ -73,7 +73,7 @@ HTML provides six heading levels.
 
 ---
 
-# Paragraph Tag
+# 📄 Paragraph Tag
 
 ```html
 <p>This is a paragraph.</p>
@@ -83,7 +83,7 @@ Used to display paragraphs.
 
 ---
 
-# Anchor Tag
+# 🔗 Anchor Tag
 
 Used to add links.
 
@@ -106,7 +106,7 @@ Used to add links.
 
 ---
 
-# Horizontal Rule
+# ➖ Horizontal Rule
 
 ```html
 <hr>
@@ -116,7 +116,7 @@ Adds a horizontal line.
 
 ---
 
-# Bold and Italic
+# ✍️ Bold and Italic
 
 ```html
 <b>Bold Text</b>
@@ -126,7 +126,7 @@ Adds a horizontal line.
 
 ---
 
-# Image Tag
+# 🖼️ Image Tag
 
 Used to add images.
 
@@ -149,7 +149,7 @@ Used to change image size.
 
 ---
 
-# Table Tag
+# 📊 Table Tag
 
 Used to create tables.
 
@@ -176,7 +176,7 @@ Used to create tables.
 
 ---
 
-# Colspan and Rowspan
+# 🔀 Colspan and Rowspan
 
 Used to merge columns and rows.
 
@@ -196,7 +196,7 @@ Default value = 1
 
 ---
 
-# Caption
+# 📌 Caption
 
 Used to provide information about the table.
 
@@ -208,7 +208,7 @@ Used to provide information about the table.
 
 ---
 
-# Table Headers and Footers
+# 📑 Table Headers and Footers
 
 Help in grouping table content.
 
@@ -232,7 +232,7 @@ Help in grouping table content.
 
 ---
 
-# Lists
+# 📋 Lists
 
 Three Types of Lists:
 
@@ -242,7 +242,7 @@ Three Types of Lists:
 
 ---
 
-## Unordered List
+## 🔹 Unordered List
 
 Displays items using bullets.
 
@@ -263,7 +263,7 @@ Displays items using bullets.
 
 ---
 
-## Ordered List
+## 🔢 Ordered List
 
 Displays items in numerical sequence.
 
@@ -308,7 +308,7 @@ Uppercase Alphabet
 
 ---
 
-## Definition List
+## 📖 Definition List
 
 Used like a dictionary.
 
@@ -326,11 +326,11 @@ Used like a dictionary.
 
 ---
 
-# SEO (Search Engine Optimization)
+# 🔍 SEO (Search Engine Optimization)
 
 Used to improve website visibility on search engines.
 
-## Core Web Vitals
+## 📈 Core Web Vitals
 
 ### CLS (Cumulative Layout Shift)
 
@@ -341,8 +341,6 @@ To improve CLS:
 - Use width and height for images.
 - Avoid layout shifts.
 
----
-
 ### LCP (Largest Contentful Paint)
 
 Measures loading time of the largest element.
@@ -351,9 +349,7 @@ Good LCP Score:
 
 - Less than 2.5 seconds
 
----
-
-### FID (First Input Delay)
+### ⚡ FID (First Input Delay)
 
 Measures how quickly the page responds after user interaction.
 
@@ -363,7 +359,7 @@ Good FID Score:
 
 ---
 
-## Meta Description
+## 🏷️ Meta Description
 
 Used to describe a webpage.
 
@@ -377,7 +373,7 @@ Helps improve SEO.
 
 ---
 
-# Forms in HTML
+# 📝 Forms in HTML
 
 Forms collect user input.
 
@@ -391,7 +387,7 @@ Forms collect user input.
 
 ---
 
-## Input Element
+## ⌨️ Input Element
 
 Used for different types of input.
 
@@ -412,7 +408,7 @@ Other Types:
 
 ---
 
-## Textarea
+## 📝 Textarea
 
 Used for multiline input.
 
@@ -437,7 +433,7 @@ cols="50">
 
 ---
 
-## Select Tag
+## ⬇️ Select Tag
 
 Creates a dropdown menu.
 
@@ -452,7 +448,7 @@ Creates a dropdown menu.
 
 ---
 
-# Form Attributes
+# ⚙️ Form Attributes
 
 ## Action
 
@@ -461,8 +457,6 @@ Specifies where form data is sent.
 ```html
 <form action="url">
 ```
-
----
 
 ## Method
 
@@ -484,8 +478,6 @@ Used for large amounts of data.
 <form method="POST">
 ```
 
----
-
 ## Name
 
 Specifies the name of the form element.
@@ -493,8 +485,6 @@ Specifies the name of the form element.
 ```html
 <input type="text" name="username">
 ```
-
----
 
 ## Placeholder
 
@@ -506,8 +496,6 @@ type="text"
 placeholder="Enter Username">
 ```
 
----
-
 ## Required
 
 Makes a field mandatory.
@@ -518,8 +506,6 @@ type="text"
 required>
 ```
 
----
-
 ## Autofocus
 
 Automatically focuses the input field.
@@ -529,8 +515,6 @@ Automatically focuses the input field.
 type="text"
 autofocus>
 ```
-
----
 
 ## Pattern
 
@@ -544,7 +528,7 @@ pattern="[A-Za-z0-9]+">
 
 ---
 
-# Inline and Block Elements
+# 📦 Inline and Block Elements
 
 ## Inline Elements
 
@@ -558,8 +542,6 @@ Examples:
 <a></a>
 ```
 
----
-
 ## Block Elements
 
 - Start on a new line.
@@ -572,15 +554,11 @@ Examples:
 <p></p>
 ```
 
----
-
-### Note
-
-`span` is similar to `div` but is an inline element.
+> 💡 **Note:** `span` is similar to `div` but is an inline element.
 
 ---
 
-# ID and Classes
+# 🆔 ID and Classes
 
 ## ID
 
@@ -591,8 +569,6 @@ Examples:
 <div id="firstDiv"></div>
 ```
 
----
-
 ## Class
 
 - Can be used on multiple elements.
@@ -601,33 +577,9 @@ Examples:
 <div class="red"></div>
 ```
 
-Example:
-
-```html
-<div id="firstDiv" class="red bgyellow">
-    First
-</div>
-
-<div id="secondDiv">
-    Second
-</div>
-```
-
-CSS:
-
-```css
-.red {
-    background-color: red;
-}
-
-.bgyellow {
-    color: yellow;
-}
-```
-
 ---
 
-# Embedding Videos
+# 🎥 Embedding Videos
 
 ```html
 <video
@@ -636,35 +588,16 @@ controls>
 </video>
 ```
 
-### Video Attributes
+Video Attributes:
 
-Autoplay
-
-```html
-autoplay
-```
-
-Loop
-
-```html
-loop
-```
-
-Muted
-
-```html
-muted
-```
-
-Poster
-
-```html
-poster="thumbnail.jpg"
-```
+- ▶️ Autoplay
+- 🔁 Loop
+- 🔇 Muted
+- 🖼️ Poster
 
 ---
 
-# Audio Tag
+# 🎵 Audio Tag
 
 ```html
 <audio
@@ -673,39 +606,17 @@ controls>
 </audio>
 ```
 
-### Preload Attribute
-
-none
-
-```html
-preload="none"
-```
-
-metadata
-
-```html
-preload="metadata"
-```
-
-auto
-
-```html
-preload="auto"
-```
-
 ---
 
-# SVG
+# 🎨 SVG
 
-SVG stands for:
-
-**Scalable Vector Graphics**
+SVG stands for **Scalable Vector Graphics**.
 
 Used to create scalable graphics without losing quality.
 
 ---
 
-# Iframe
+# 🖥️ Iframe
 
 Used to embed another webpage.
 
@@ -719,31 +630,27 @@ height="300">
 
 ---
 
-# Subscript and Superscript
+# 🔢 Subscript and Superscript
 
-Subscript
+Subscript:
 
 ```html
 <sub>2</sub>
 ```
 
-Example:
+Example: H<sub>2</sub>O
 
-H<sub>2</sub>O
-
-Superscript
+Superscript:
 
 ```html
 <sup>2</sup>
 ```
 
-Example:
-
-x<sup>2</sup>
+Example: x<sup>2</sup>
 
 ---
 
-# Pre Tag
+# 📜 Pre Tag
 
 Displays text exactly as written.
 
@@ -758,7 +665,7 @@ as written.
 
 ---
 
-# Page Layout Tags
+# 🏠 Page Layout Tags
 
 ```html
 <header></header>
@@ -780,62 +687,21 @@ Main content area.
 
 Bottom section of webpage.
 
----
+### Elements Inside Main
 
-## Elements Inside Main
-
-### Section
-
-```html
-<section></section>
-```
-
-Represents a page section.
-
-### Article
-
-```html
-<article></article>
-```
-
-Represents self-contained content.
-
-### Aside
-
-```html
-<aside></aside>
-```
-
-Represents side content such as advertisements.
+- 📂 `<section>` → Represents a page section.
+- 📰 `<article>` → Represents self-contained content.
+- 📌 `<aside>` → Represents side content such as advertisements.
 
 ---
 
-# Useful Tags
+# 🛠️ Useful Tags
 
-Line Break
-
-```html
-<br>
-```
-
-Horizontal Line
-
-```html
-<hr>
-```
-
-Bold
-
-```html
-<b></b>
-```
-
-Italic
-
-```html
-<i></i>
-```
+- `<br>` → Line Break
+- `<hr>` → Horizontal Line
+- `<b>` → Bold
+- `<i>` → Italic
 
 ---
 
-# End of HTML Notes
+# 🎉 End of HTML Notes
